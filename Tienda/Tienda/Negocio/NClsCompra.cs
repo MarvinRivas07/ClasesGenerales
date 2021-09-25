@@ -13,7 +13,7 @@ namespace Tienda.Negocio
         {
             if (compra.Dia=="Martes" ||  compra.Dia=="Jueves")
             {
-                double descuento = compra.Total * 0.15;
+                double descuento = compra.Total * 0.15%;
 
                 return "total" + compra.Total + "" +
                     "\n descuento:" + descuento + "" +

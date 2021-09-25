@@ -5,3 +5,10 @@ C:\Users\Marvi\Documents\GitHub\Cajero\Cajero\obj\Debug\Cajero.csproj.AssemblyRe
 C:\Users\Marvi\Documents\GitHub\Cajero\Cajero\obj\Debug\Cajero.csproj.CoreCompileInputs.cache
 C:\Users\Marvi\Documents\GitHub\Cajero\Cajero\obj\Debug\Cajero.exe
 C:\Users\Marvi\Documents\GitHub\Cajero\Cajero\obj\Debug\Cajero.pdb
+C:\Users\Marvi\Documents\GitHub\ClasesGenerales\Cajero\Cajero\bin\Debug\Cajero.exe.config
+C:\Users\Marvi\Documents\GitHub\ClasesGenerales\Cajero\Cajero\bin\Debug\Cajero.exe
+C:\Users\Marvi\Documents\GitHub\ClasesGenerales\Cajero\Cajero\bin\Debug\Cajero.pdb
+C:\Users\Marvi\Documents\GitHub\ClasesGenerales\Cajero\Cajero\obj\Debug\Cajero.csproj.AssemblyReference.cache
+C:\Users\Marvi\Documents\GitHub\ClasesGenerales\Cajero\Cajero\obj\Debug\Cajero.csproj.CoreCompileInputs.cache
+C:\Users\Marvi\Documents\GitHub\ClasesGenerales\Cajero\Cajero\obj\Debug\Cajero.exe
+C:\Users\Marvi\Documents\GitHub\ClasesGenerales\Cajero\Cajero\obj\Debug\Cajero.pdb
