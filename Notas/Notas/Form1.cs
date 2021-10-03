@@ -36,6 +36,7 @@ namespace Notas
 
         private void CalcularNota_Click(object sender, EventArgs e)
         {
+            
             ClsNotas notas = new ClsNotas();
             notas.Lab1 = Convert.ToDouble(Lab1.Text);
             notas.Parcial1 = Convert.ToDouble(Parcial1.Text);

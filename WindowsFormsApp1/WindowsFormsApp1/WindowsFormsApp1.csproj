@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59A8A651-1050-424D-A179-114C0D8BFDE3}</ProjectGuid>
+    <ProjectGuid>{DABEC37E-50F0-41E7-ADC4-D1559FB09DCF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Notas</RootNamespace>
-    <AssemblyName>Notas</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,18 +45,74 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\ClsNotas.cs" />
-    <Compile Include="Entidades\Estudiantes.cs" />
-    <Compile Include="Entidades\Profesor.cs" />
+    <Compile Include="Entidades\ClsPersona.cs" />
+    <Compile Include="Entidades\Estudiante.cs" />
+    <Compile Include="Entidades\operaciones.cs" />
+    <Compile Include="Entidades\Profesores.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Negocio\NClsNotas.cs" />
+    <Compile Include="Negocio\ClsOperaciones.cs" />
+    <Compile Include="Negocio\NClsPersona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Estudiantees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Estudiantees.Designer.cs">
+      <DependentUpon>Estudiantees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Fmr_Suma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Fmr_Suma.Designer.cs">
+      <DependentUpon>Fmr_Suma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FmrDivision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FmrDivision.Designer.cs">
+      <DependentUpon>FmrDivision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FmrMultiplicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FmrMultiplicacion.Designer.cs">
+      <DependentUpon>FmrMultiplicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FmrResta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FmrResta.Designer.cs">
+      <DependentUpon>FmrResta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\MenuAplicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\MenuAplicacion.Designer.cs">
+      <DependentUpon>MenuAplicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Persona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Persona.Designer.cs">
+      <DependentUpon>Persona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Profesor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Profesor.Designer.cs">
+      <DependentUpon>Profesor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Venta.Designer.cs">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -70,6 +125,24 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vistas\FmrDivision.resx">
+      <DependentUpon>FmrDivision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FmrMultiplicacion.resx">
+      <DependentUpon>FmrMultiplicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FmrResta.resx">
+      <DependentUpon>FmrResta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Fmr_Suma.resx">
+      <DependentUpon>Fmr_Suma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\MenuAplicacion.resx">
+      <DependentUpon>MenuAplicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Venta.resx">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
