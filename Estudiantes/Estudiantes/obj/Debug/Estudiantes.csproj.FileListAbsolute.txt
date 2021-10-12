@@ -1,0 +1,17 @@
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\bin\Debug\Estudiantes.exe.config
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\bin\Debug\Estudiantes.exe
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\bin\Debug\Estudiantes.pdb
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\bin\Debug\EntityFramework.dll
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\bin\Debug\EntityFramework.xml
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.AssemblyReference.cache
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.Form1.resources
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.Properties.Resources.resources
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.GenerateResource.cache
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.CoreCompileInputs.cache
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.csproj.CopyComplete
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.exe
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.pdb
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.Vistas.Materia.resources
+C:\Users\Marvi\Documents\GitHub\Estudiantes\Estudiantes\obj\Debug\Estudiantes.Vistas.FmrVistaConsultaEstudiante.resources
